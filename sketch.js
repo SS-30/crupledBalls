@@ -7,11 +7,6 @@ const Body = Matter.Body;
 function setup() {
 	createCanvas(800, 700);
 	rectMode(CENTER);
-	
-
-	ball=createSprite(width/2, 80, 10,10);
-	ball.scale=0.2
-
 
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
